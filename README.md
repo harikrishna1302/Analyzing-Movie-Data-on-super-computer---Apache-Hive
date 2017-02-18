@@ -13,3 +13,5 @@ As mentioned before, Apache Hive runs on HDFS cluster and contains database call
 ##Entity- Relation Model of given data set:
 This model is also called as ER model which contains information of the data in structured format.
 Every property that is used in database has some structure format which is easy for the developer to understand. This model contains entities, Relationships, etc. that is connected to one another. In this project, the ER model representation is shown below:
+![untitled](https://cloud.githubusercontent.com/assets/18632383/23093182/fe2fc638-f5a9-11e6-9d07-42dabf9416ff.png)
+##Project Code:
