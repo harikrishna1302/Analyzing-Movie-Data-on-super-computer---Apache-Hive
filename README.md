@@ -14,3 +14,12 @@ As mentioned before, Apache Hive runs on HDFS cluster and contains database call
 This model is also called as ER model which contains information of the data in structured format.
 Every property that is used in database has some structure format which is easy for the developer to understand. This model contains entities, Relationships, etc. that is connected to one another. In this project, the ER model representation is shown below:
 ![untitled](https://cloud.githubusercontent.com/assets/18632383/23093182/fe2fc638-f5a9-11e6-9d07-42dabf9416ff.png)
+##Implementation:
+* Log into your sandbox as root, and change directory to your shared folder which contains movie data.  
+        ```cd /media/sf_sharedfolder```
+* Store the data in to HDFS from your local file system.  
+         ```hdfs dfs –copyFromLocal <inputfile> /tmp/```
+* In Apache Hive, create database and tables corresponding to the given input files. Load data inpath.  
+       ```'/tmp/movies/<filename>’ into table <tablename>```
+* Perform Queries.  
+
