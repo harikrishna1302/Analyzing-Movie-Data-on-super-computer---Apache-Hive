@@ -1,4 +1,4 @@
-# Large-Movie-Database---Apache-Hive
+# Analyzing movie data---Apache-Hive
 ##Introduction:
 The data is nothing but the information and the database defines the data that is stored and processed at user’s requirement. Big data deals with the large amount of data and is most widely used in now days. There are many languages used to access and store the data from or to the database and MYSQL is the mostly used query language to store the data in database. The developer should be most perfect with any of the database language for learning the database practically. The interesting part of the database is you can access the data as per your requirements using the query language and can store in to the database from your local file system. 
 Any database contains two things which are meta data and warehouse.
